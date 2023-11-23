@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(221, 210, 210);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.logo img{
+    height: 100%;
+    width: 11%;
+}
+.homepage{
+    display: inline;
+    background-color: rgb(255, 177, 33);
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+    margin: 30px 0px;
+    position: absolute;
+    left: 20px;
+    text-align: center;
+}
+.homepage:hover{
+    background-color: rgb(249, 163, 5);
+}
+.homepage a{
+    text-decoration: none;
+    position: absolute;
+    top: 13px;
+    left: 16px;
+    font-family: Impact;
+    color:white
+}
+.homepage img{
+    height: 100%;
+    width: 100%;
+}
+.log{
+    display: inline;
+    background-color: greenyellow;
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+    margin: 30px 0px;
+}
+.log img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.intro{
+    text-align: center;
+    margin: 10px 0px;
+    background-color: white;
+    width: 70%;
+    border-radius: 20px;
+}
+.intro h3{
+    font-family: 'Share Tech Mono', monospace;
+    color: orangered;
+    font-size: 2em;
+}
+.intro h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin: 10px 0px;
+    font-family: Ubuntu;
+}
+.intro p{
+    font-size: 20px;
+}
+.para{
+    /* border: 2px solid grey; */
+}
+
+.laylinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row{
+    display: flex;
+     /* width: 110%;  */
+
+}
+.row img{
+    padding: 1em;
+    height: 10em;
+    width: 10em;
+}
+.row div{
+    margin: 20px 20px;
+    border: 3px solid orangered;
+    border-radius: 10px;
+    
+}
+.laylinks a{
+    text-decoration: none
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(61, 58, 58);
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+}
+footer a{
+    color: orangered;
+}
+
+
+
+
+/* Responsive Design*/
+
+@media (max-width:988px) {
+    .row{
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .laylinks{
+        align-items: center;
+    }
+}
