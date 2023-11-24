@@ -310,3 +310,18 @@ footer a {
         width: 100%;
     }
 }
+@media (orientation:landscape){
+    .intro{
+        width: 70%;
+    }
+    .laylinks{
+        width: 70%;
+    }
+    .laylinks .about{
+        display: none;
+    }
+    .laylinks div img{
+        width: 100%;
+        border-radius: 3%;
+    }
+}
