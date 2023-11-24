@@ -325,12 +325,3 @@ footer a {
         border-radius: 3%;
     }
 }
-.devinfo{
-    position: absolute;
-    top: 40px;
-    right: 20px;
-    font-family: 'Share Tech Mono', monospace;
-}
-.devinfo a{
-    color: rgb(253, 25, 25);
-}
