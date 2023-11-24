@@ -144,3 +144,11 @@ footer a{
         flex-grow: 1;
     }
 }
+@media (max-width:1080px) {
+    .intro{
+        width: 100%;
+    }
+    .laylinks{
+        width: 100%;
+    }
+}
