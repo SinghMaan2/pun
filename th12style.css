@@ -353,18 +353,6 @@ footer a {
     }
 }
 
-.devinfo {
-    position: absolute;
-    top: 40px;
-    right: 20px;
-    font-family: 'Share Tech Mono', monospace;
-    color: white;
-}
-
-.devinfo a {
-    color: rgb(253, 25, 25);
-}
-
 
 .container {
     width: 100vw;
