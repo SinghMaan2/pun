@@ -179,29 +179,3 @@ footer a {
         width: 100%;
     }
     }
-
-    .container{
-        width: 100vw;
-        height: 100vh;
-        background-color: black;
-        position: fixed;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .container::after{
-        content: '';
-        /* background-color: rgb(0, 0, 0); */
-        border: 10px solid blue;
-        border-top-color: black;
-        border-radius: 50%;
-        position: absolute;
-        height: 100px;
-        width: 100px;
-        animation: rotation  1s  ease-out  infinite;
-    }
-    @keyframes rotation {
-        from{transform:rotate(0deg)}
-        to{transform:rotate(360deg)}
-    }
